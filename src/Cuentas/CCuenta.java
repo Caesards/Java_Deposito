@@ -112,4 +112,20 @@ public class CCuenta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
+    /**
+     * Aqui se obtiene el tipo de interes
+     * @return : devuelve el tipo de interes. 
+     */
+    public double getTipoInterés() {
+        return tipoInterés;
+    }
+
+    /**
+     * Aqui se establecería el tipo de interes
+     * @param tipoInterés : esto dice el tipo de interes.
+     */
+    public void setTipoInterés(double tipoInterés) {
+        this.tipoInterés = tipoInterés;
+    }
 }
