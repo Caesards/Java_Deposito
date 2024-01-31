@@ -21,8 +21,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        // Aquí va la lógica principal de tu aplicación
-        operativa_cuenta();
+        // Aquí el método operativa_cuenta,
+        // que englobe las sentencias de la clase Main que operan con el objeto cuenta1.
+        operativa_cuenta(0);
     }
 
     /**
@@ -31,7 +32,7 @@ public class Main {
      * Segundo se retira dinero
      * tercero se ingresa dinero
      */
-    public static void operativa_cuenta(){
+    public static void operativa_cuenta(float cantidad){
         CCuenta Cuenta1;
         double saldoActual;
 
